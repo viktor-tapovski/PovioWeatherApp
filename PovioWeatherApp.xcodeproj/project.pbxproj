@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77A4E70E1C7B375300BD62AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4E70D1C7B375300BD62AE /* AppDelegate.swift */; };
+		77A4E7101C7B375300BD62AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4E70F1C7B375300BD62AE /* ViewController.swift */; };
+		77A4E7131C7B375300BD62AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A4E7111C7B375300BD62AE /* Main.storyboard */; };
+		77A4E7151C7B375300BD62AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A4E7141C7B375300BD62AE /* Assets.xcassets */; };
+		77A4E7181C7B375300BD62AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A4E7161C7B375300BD62AE /* LaunchScreen.storyboard */; };
+		77A4E7231C7B375400BD62AE /* PovioWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4E7221C7B375400BD62AE /* PovioWeatherAppTests.swift */; };
+		77A4E72E1C7B375400BD62AE /* PovioWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4E72D1C7B375400BD62AE /* PovioWeatherAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A4E71F1C7B375400BD62AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A4E7021C7B375300BD62AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A4E7091C7B375300BD62AE;
+			remoteInfo = PovioWeatherApp;
+		};
+		77A4E72A1C7B375400BD62AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A4E7021C7B375300BD62AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A4E7091C7B375300BD62AE;
+			remoteInfo = PovioWeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77A4E70A1C7B375300BD62AE /* PovioWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PovioWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A4E70D1C7B375300BD62AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77A4E70F1C7B375300BD62AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77A4E7121C7B375300BD62AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77A4E7141C7B375300BD62AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A4E7171C7B375300BD62AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77A4E7191C7B375300BD62AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A4E71E1C7B375400BD62AE /* PovioWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PovioWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A4E7221C7B375400BD62AE /* PovioWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PovioWeatherAppTests.swift; sourceTree = "<group>"; };
+		77A4E7241C7B375400BD62AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A4E7291C7B375400BD62AE /* PovioWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PovioWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A4E72D1C7B375400BD62AE /* PovioWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PovioWeatherAppUITests.swift; sourceTree = "<group>"; };
+		77A4E72F1C7B375400BD62AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A4E7071C7B375300BD62AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4E71B1C7B375400BD62AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4E7261C7B375400BD62AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A4E7011C7B375300BD62AE = {
+			isa = PBXGroup;
+			children = (
+				77A4E70C1C7B375300BD62AE /* PovioWeatherApp */,
+				77A4E7211C7B375400BD62AE /* PovioWeatherAppTests */,
+				77A4E72C1C7B375400BD62AE /* PovioWeatherAppUITests */,
+				77A4E70B1C7B375300BD62AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A4E70B1C7B375300BD62AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A4E70A1C7B375300BD62AE /* PovioWeatherApp.app */,
+				77A4E71E1C7B375400BD62AE /* PovioWeatherAppTests.xctest */,
+				77A4E7291C7B375400BD62AE /* PovioWeatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A4E70C1C7B375300BD62AE /* PovioWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				77A4E70D1C7B375300BD62AE /* AppDelegate.swift */,
+				77A4E70F1C7B375300BD62AE /* ViewController.swift */,
+				77A4E7111C7B375300BD62AE /* Main.storyboard */,
+				77A4E7141C7B375300BD62AE /* Assets.xcassets */,
+				77A4E7161C7B375300BD62AE /* LaunchScreen.storyboard */,
+				77A4E7191C7B375300BD62AE /* Info.plist */,
+			);
+			path = PovioWeatherApp;
+			sourceTree = "<group>";
+		};
+		77A4E7211C7B375400BD62AE /* PovioWeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				77A4E7221C7B375400BD62AE /* PovioWeatherAppTests.swift */,
+				77A4E7241C7B375400BD62AE /* Info.plist */,
+			);
+			path = PovioWeatherAppTests;
+			sourceTree = "<group>";
+		};
+		77A4E72C1C7B375400BD62AE /* PovioWeatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A4E72D1C7B375400BD62AE /* PovioWeatherAppUITests.swift */,
+				77A4E72F1C7B375400BD62AE /* Info.plist */,
+			);
+			path = PovioWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A4E7091C7B375300BD62AE /* PovioWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A4E7321C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherApp" */;
+			buildPhases = (
+				77A4E7061C7B375300BD62AE /* Sources */,
+				77A4E7071C7B375300BD62AE /* Frameworks */,
+				77A4E7081C7B375300BD62AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PovioWeatherApp;
+			productName = PovioWeatherApp;
+			productReference = 77A4E70A1C7B375300BD62AE /* PovioWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77A4E71D1C7B375400BD62AE /* PovioWeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A4E7351C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherAppTests" */;
+			buildPhases = (
+				77A4E71A1C7B375400BD62AE /* Sources */,
+				77A4E71B1C7B375400BD62AE /* Frameworks */,
+				77A4E71C1C7B375400BD62AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A4E7201C7B375400BD62AE /* PBXTargetDependency */,
+			);
+			name = PovioWeatherAppTests;
+			productName = PovioWeatherAppTests;
+			productReference = 77A4E71E1C7B375400BD62AE /* PovioWeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77A4E7281C7B375400BD62AE /* PovioWeatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A4E7381C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherAppUITests" */;
+			buildPhases = (
+				77A4E7251C7B375400BD62AE /* Sources */,
+				77A4E7261C7B375400BD62AE /* Frameworks */,
+				77A4E7271C7B375400BD62AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A4E72B1C7B375400BD62AE /* PBXTargetDependency */,
+			);
+			name = PovioWeatherAppUITests;
+			productName = PovioWeatherAppUITests;
+			productReference = 77A4E7291C7B375400BD62AE /* PovioWeatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A4E7021C7B375300BD62AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Viktor Tapovski";
+				TargetAttributes = {
+					77A4E7091C7B375300BD62AE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4Q869VDR7;
+					};
+					77A4E71D1C7B375400BD62AE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4Q869VDR7;
+						TestTargetID = 77A4E7091C7B375300BD62AE;
+					};
+					77A4E7281C7B375400BD62AE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B4Q869VDR7;
+						TestTargetID = 77A4E7091C7B375300BD62AE;
+					};
+				};
+			};
+			buildConfigurationList = 77A4E7051C7B375300BD62AE /* Build configuration list for PBXProject "PovioWeatherApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A4E7011C7B375300BD62AE;
+			productRefGroup = 77A4E70B1C7B375300BD62AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A4E7091C7B375300BD62AE /* PovioWeatherApp */,
+				77A4E71D1C7B375400BD62AE /* PovioWeatherAppTests */,
+				77A4E7281C7B375400BD62AE /* PovioWeatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A4E7081C7B375300BD62AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A4E7181C7B375300BD62AE /* LaunchScreen.storyboard in Resources */,
+				77A4E7151C7B375300BD62AE /* Assets.xcassets in Resources */,
+				77A4E7131C7B375300BD62AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4E71C1C7B375400BD62AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4E7271C7B375400BD62AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A4E7061C7B375300BD62AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A4E7101C7B375300BD62AE /* ViewController.swift in Sources */,
+				77A4E70E1C7B375300BD62AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4E71A1C7B375400BD62AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A4E7231C7B375400BD62AE /* PovioWeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4E7251C7B375400BD62AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A4E72E1C7B375400BD62AE /* PovioWeatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A4E7201C7B375400BD62AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A4E7091C7B375300BD62AE /* PovioWeatherApp */;
+			targetProxy = 77A4E71F1C7B375400BD62AE /* PBXContainerItemProxy */;
+		};
+		77A4E72B1C7B375400BD62AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A4E7091C7B375300BD62AE /* PovioWeatherApp */;
+			targetProxy = 77A4E72A1C7B375400BD62AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77A4E7111C7B375300BD62AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A4E7121C7B375300BD62AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77A4E7161C7B375300BD62AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A4E7171C7B375300BD62AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A4E7301C7B375400BD62AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77A4E7311C7B375400BD62AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77A4E7331C7B375400BD62AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PovioWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vt.domainname.PovioWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77A4E7341C7B375400BD62AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PovioWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vt.domainname.PovioWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77A4E7361C7B375400BD62AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PovioWeatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vt.domainname.PovioWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PovioWeatherApp.app/PovioWeatherApp";
+			};
+			name = Debug;
+		};
+		77A4E7371C7B375400BD62AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PovioWeatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vt.domainname.PovioWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PovioWeatherApp.app/PovioWeatherApp";
+			};
+			name = Release;
+		};
+		77A4E7391C7B375400BD62AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PovioWeatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vt.domainname.PovioWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PovioWeatherApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		77A4E73A1C7B375400BD62AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PovioWeatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vt.domainname.PovioWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PovioWeatherApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A4E7051C7B375300BD62AE /* Build configuration list for PBXProject "PovioWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4E7301C7B375400BD62AE /* Debug */,
+				77A4E7311C7B375400BD62AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A4E7321C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4E7331C7B375400BD62AE /* Debug */,
+				77A4E7341C7B375400BD62AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77A4E7351C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4E7361C7B375400BD62AE /* Debug */,
+				77A4E7371C7B375400BD62AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77A4E7381C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4E7391C7B375400BD62AE /* Debug */,
+				77A4E73A1C7B375400BD62AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A4E7021C7B375300BD62AE /* Project object */;
+}
