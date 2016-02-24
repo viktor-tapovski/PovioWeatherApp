@@ -14,6 +14,8 @@
 		77A4E7181C7B375300BD62AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A4E7161C7B375300BD62AE /* LaunchScreen.storyboard */; };
 		77A4E7231C7B375400BD62AE /* PovioWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4E7221C7B375400BD62AE /* PovioWeatherAppTests.swift */; };
 		77A4E72E1C7B375400BD62AE /* PovioWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4E72D1C7B375400BD62AE /* PovioWeatherAppUITests.swift */; };
+		77D3E5DA1C7C71BD00DF245A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D3E5D91C7C71BD00DF245A /* SecondViewController.swift */; };
+		77D3E5DC1C7C975000DF245A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D3E5DB1C7C975000DF245A /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		77A4E7291C7B375400BD62AE /* PovioWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PovioWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A4E72D1C7B375400BD62AE /* PovioWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PovioWeatherAppUITests.swift; sourceTree = "<group>"; };
 		77A4E72F1C7B375400BD62AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D3E5D91C7C71BD00DF245A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		77D3E5DB1C7C975000DF245A /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				77A4E70D1C7B375300BD62AE /* AppDelegate.swift */,
 				77A4E70F1C7B375300BD62AE /* ViewController.swift */,
 				77A4E7111C7B375300BD62AE /* Main.storyboard */,
+				77D3E5DB1C7C975000DF245A /* DetailsViewController.swift */,
+				77D3E5D91C7C71BD00DF245A /* SecondViewController.swift */,
 				77A4E7141C7B375300BD62AE /* Assets.xcassets */,
 				77A4E7161C7B375300BD62AE /* LaunchScreen.storyboard */,
 				77A4E7191C7B375300BD62AE /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D3E5DA1C7C71BD00DF245A /* SecondViewController.swift in Sources */,
 				77A4E7101C7B375300BD62AE /* ViewController.swift in Sources */,
 				77A4E70E1C7B375300BD62AE /* AppDelegate.swift in Sources */,
+				77D3E5DC1C7C975000DF245A /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +493,7 @@
 				77A4E7341C7B375400BD62AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77A4E7351C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				77A4E7371C7B375400BD62AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77A4E7381C7B375400BD62AE /* Build configuration list for PBXNativeTarget "PovioWeatherAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				77A4E73A1C7B375400BD62AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
